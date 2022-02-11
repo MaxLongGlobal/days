@@ -52,4 +52,4 @@ if __name__ == '__main__':
     # print('Hello, MaxLongGlobal! Welcome to use python.')
     dd = time.strftime('%Y-%m-%d-%w').split('-')
     year, month, day, xq = int(dd[0]), int(dd[1]), int(dd[2]), int(dd[3])
-    # day_of_year(year, month, day, xq)
+    day_of_year(year, month, day, xq)
