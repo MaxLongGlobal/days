@@ -9,7 +9,7 @@ import time
 from datetime import date
 
 
-# year,month,day = map(int,input().split('/'))
+year,month,day = map(int,input().split('/'))
 
 
 def day_of_year(year1, month1, day1, xq):
